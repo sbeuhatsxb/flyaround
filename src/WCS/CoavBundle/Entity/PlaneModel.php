@@ -43,6 +43,13 @@ class PlaneModel
     private $cruiseSpeed;
 
     /**
+     * @var int
+     *
+     * @ORM\Column(name="planeNbSeats", type="smallint")
+     */
+    private $planeNbSeats;
+
+    /**
      * @var bool
      *
      * @ORM\Column(name="isAvailable", type="boolean")
@@ -130,6 +137,30 @@ class PlaneModel
     public function getCruiseSpeed()
     {
         return $this->cruiseSpeed;
+    }
+
+    /**
+     * Set planeNbSeats
+     *
+     * @param integer $planeNbSeats
+     *
+     * @return PlaneModel
+     */
+    public function setPlaneNbSeats($planeNbSeats)
+    {
+        $this->planeNbSeats = $planeNbSeats;
+
+        return $this;
+    }
+
+    /**
+     * Get planeNbSeats
+     *
+     * @return int
+     */
+    public function getPlaneNbSeats()
+    {
+        return $this->planeNbSeats;
     }
 
     /**
