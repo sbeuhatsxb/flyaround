@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Flight
 {
     /**
-     * @var intœ
+     * @var int
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
