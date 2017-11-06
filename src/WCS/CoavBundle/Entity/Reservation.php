@@ -54,7 +54,7 @@ class Reservation
     /**
      * @var bool
      *
-     * @ORM\Column(name="wasDone", type="boolean")
+     * @ORM\Column(name="wasDone", type="boolean", nullable=false)
      */
     private $wasDone;
 

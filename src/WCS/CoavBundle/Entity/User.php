@@ -12,6 +12,11 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class User
 {
+
+    public function __toString()
+    {
+        return $this->userName . $this->firstName . $this->email . $this->phoneNumber .  $this->role . $this->reviews . $this->isACertifiedPilot  . $this->isActive;
+    }
     /**
      * @var int
      *
@@ -45,56 +50,56 @@ class User
     /**
      * @var string
      *
-     * @ORM\Column(name="userName", type="string", length=32)
+     * @ORM\Column(name="userName", type="string", length=32, nullable=false)
      */
     private $userName;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="firstName", type="string", length=32)
+     * @ORM\Column(name="firstName", type="string", length=32, nullable=false)
      */
     private $firstName;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="lastName", type="string", length=32)
+     * @ORM\Column(name="lastName", type="string", length=32, nullable=false)
      */
     private $lastName;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="email", type="string", length=64)
+     * @ORM\Column(name="email", type="string", length=64, nullable=false)
      */
     private $email;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="phoneNumber", type="string", length=32)
+     * @ORM\Column(name="phoneNumber", type="string", length=32, nullable=false)
      */
     private $phoneNumber;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="birthDate", type="date")
+     * @ORM\Column(name="birthDate", type="date", nullable=false)
      */
     private $birthDate;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="creationDate", type="datetime")
+     * @ORM\Column(name="creationDate", type="datetime", nullable=false)
      */
     private $creationDate;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="role", type="string", length=16)
+     * @ORM\Column(name="role", type="string", length=16, nullable=false)
      */
     private $role;
 
@@ -110,7 +115,7 @@ class User
      * @var string
      *
      * @ORM\ManyToOne(targetEntity="WCS\CoavBundle\Entity\Review", inversedBy="reviewss")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
      */
     private $reviews;
 

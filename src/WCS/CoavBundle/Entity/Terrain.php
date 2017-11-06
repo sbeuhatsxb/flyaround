@@ -34,14 +34,14 @@ class Terrain
     /**
      * @var string
      *
-     * @ORM\Column(name="name", type="string", length=128)
+     * @ORM\Column(name="name", type="string", length=128, nullable=false)
      */
     private $name;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="icao", type="string", length=4, unique=true)
+     * @ORM\Column(name="icao", type="string", length=4, unique=true, nullable=false)
      */
     private $icao;
 
@@ -58,42 +58,42 @@ class Terrain
     /**
      * @var float
      *
-     * @ORM\Column(name="latitude", type="float")
+     * @ORM\Column(name="latitude", type="float", nullable=false)
      */
     private $latitude;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="longitude", type="float")
+     * @ORM\Column(name="longitude", type="float", nullable=false)
      */
     private $longitude;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="address", type="string", length=128)
+     * @ORM\Column(name="address", type="string", length=128, nullable=false)
      */
     private $address;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="city", type="string", length=128)
+     * @ORM\Column(name="city", type="string", length=128, nullable=false)
      */
     private $city;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="zipcode", type="string", length=16)
+     * @ORM\Column(name="zipcode", type="string", length=16, nullable=false)
      */
     private $zipcode;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="country", type="string", length=64)
+     * @ORM\Column(name="country", type="string", length=64, nullable=false)
      */
     private $country;
 

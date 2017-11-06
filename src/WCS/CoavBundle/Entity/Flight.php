@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Flight
 {
     /**
-     * @var int
+     * @var intœ
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
@@ -40,35 +40,35 @@ class Flight
     /**
      * @var int
      *
-     * @ORM\Column(name="nbFreeSeats", type="smallint")
+     * @ORM\Column(name="nbFreeSeats", type="smallint", nullable=false)
      */
     private $nbFreeSeats;
 
     /**
      * @var float
      *
-     * @ORM\Column(name="seatPrice", type="float")
+     * @ORM\Column(name="seatPrice", type="float", nullable=false)
      */
     private $seatPrice;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="takeOffTime", type="datetime")
+     * @ORM\Column(name="takeOffTime", type="datetime", nullable=false)
      */
     private $takeOffTime;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="publicationDate", type="datetime")
+     * @ORM\Column(name="publicationDate", type="datetime", nullable=false)
      */
     private $publicationDate;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="description", type="text", nullable=true)
+     * @ORM\Column(name="description", type="text")
      */
     private $description;
 
@@ -93,7 +93,7 @@ class Flight
     /**
      * @var bool
      *
-     * @ORM\Column(name="wasDone", type="boolean")
+     * @ORM\Column(name="wasDone", type="boolean", nullable=false)
      */
     private $wasDone;
 

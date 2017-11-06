@@ -24,7 +24,7 @@ class PlaneModel
     /**
      * @var string
      *
-     * @ORM\Column(name="model", type="string", length=128)
+     * @ORM\Column(name="model", type="string", length=128, nullable=false)
      */
     private $model;
 
@@ -36,7 +36,7 @@ class PlaneModel
     /**
      * @var string
      *
-     * @ORM\Column(name="manufacturer", type="string", length=64, nullable=true)
+     * @ORM\Column(name="manufacturer", type="string", length=64)
      */
     private $manufacturer;
 
@@ -50,14 +50,14 @@ class PlaneModel
     /**
      * @var int
      *
-     * @ORM\Column(name="planeNbSeats", type="smallint")
+     * @ORM\Column(name="planeNbSeats", type="smallint", nullable=false)
      */
     private $planeNbSeats;
 
     /**
      * @var bool
      *
-     * @ORM\Column(name="isAvailable", type="boolean")
+     * @ORM\Column(name="isAvailable", type="boolean", nullable=false)
      */
     private $isAvailable;
 

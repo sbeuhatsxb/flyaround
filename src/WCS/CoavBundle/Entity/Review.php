@@ -12,6 +12,13 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Review
 {
+
+    public function __toString()
+    {
+        return $this->text . "-" . $this->userRated . $this->reviewAuthor . $this->publicationDate . $this->note;
+    }
+
+    
     /**
      * @var int
      *
@@ -24,7 +31,7 @@ class Review
     /**
      * @var string
      *
-     * @ORM\Column(name="text", type="text")
+     * @ORM\Column(name="text", type="text", nullable=false)
      */
     private $text;
 
@@ -52,14 +59,14 @@ class Review
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="publicationDate", type="datetime")
+     * @ORM\Column(name="publicationDate", type="datetime", nullable=false)
      */
     private $publicationDate;
 
     /**
      * @var int
      *
-     * @ORM\Column(name="note", type="smallint")
+     * @ORM\Column(name="note", type="smallint", nullable=false)
      */
     private $note;
 
