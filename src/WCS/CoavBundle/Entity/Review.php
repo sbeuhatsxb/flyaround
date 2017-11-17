@@ -15,10 +15,10 @@ class Review
 
     public function __toString()
     {
-        return $this->text . "-" . $this->userRated . $this->reviewAuthor . $this->publicationDate . $this->note;
+        return $this->text . "-" . $this->userRated . $this->reviewAuthor . $this->publicationDate->format("d/m/Y") . $this->note;
     }
 
-    
+
     /**
      * @var int
      *

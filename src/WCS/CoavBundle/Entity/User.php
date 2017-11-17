@@ -13,10 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class User
 {
 
-    public function __toString()
-    {
-        return $this->userName . $this->firstName . $this->email . $this->phoneNumber .  $this->role . $this->reviews . $this->isACertifiedPilot  . $this->isActive;
-    }
+
     /**
      * @var int
      *
@@ -38,12 +35,12 @@ class User
     private $pilots;
 
     /**
-    * @ORM\OneToMany(targetEntity="WCS\CoavBundle\Entity\User", mappedBy="userRated")
+    * @ORM\OneToMany(targetEntity="WCS\CoavBundle\Entity\Review", mappedBy="userRated")
     */
     private $userRateds;
 
     /**
-    * @ORM\OneToMany(targetEntity="WCS\CoavBundle\Entity\User", mappedBy="reviewAuthor")
+    * @ORM\OneToMany(targetEntity="WCS\CoavBundle\Entity\Review", mappedBy="reviewAuthor")
     */
     private $reviewAuthors;
 
@@ -133,6 +130,13 @@ class User
      */
     private $isActive;
 
+    /**
+     * Custom method
+     */
+    public function __toString()
+    {
+        return $this->userName." ".$this->firstName;
+    }
 
     /**
      * Get id
