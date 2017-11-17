@@ -63,7 +63,7 @@ class PlaneModel
 
     public function __toString()
     {
-        return $this->$model;
+        return $this->model;
     }
 
 
