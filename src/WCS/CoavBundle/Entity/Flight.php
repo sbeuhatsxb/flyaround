@@ -98,6 +98,11 @@ class Flight
     private $wasDone;
 
 
+    public function __toString()
+    {
+        return $this->description;
+    }
+
     /**
      * Get id
      *

@@ -1,5 +1,5 @@
-wcs_coav_review:
-    resource: "@WCSCoavBundle/Controller/ReviewController.php"
+wcs_coav_reservation:
+    resource: "@WCSCoavBundle/Controller/ReservationController.php"
     type:     annotation
 
 wcs_coav_user:
@@ -20,6 +20,10 @@ wcs_coav_flight:
 
 wcs_coav_reservation:
     resource: "@WCSCoavBundle/Controller/ReservationController.php"
+    type:     annotation
+
+wcs_coav_listing:
+    resource: "@WCSCoavBundle/Controller/ListingController.php"
     type:     annotation
 
 wcs_coav:

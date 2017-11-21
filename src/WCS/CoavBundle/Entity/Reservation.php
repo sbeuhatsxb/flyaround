@@ -40,7 +40,7 @@ class Reservation
     * @ORM\ManyToMany(targetEntity="WCS\CoavBundle\Entity\User", mappedBy="passengers")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $passenger;
+    private $passengers;
 
 
     /**
@@ -218,5 +218,15 @@ class Reservation
     public function removePassenger(\WCS\CoavBundle\Entity\User $passenger)
     {
         $this->passenger->removeElement($passenger);
+    }
+
+    /**
+     * Get passengers
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPassengers()
+    {
+        return $this->passengers;
     }
 }

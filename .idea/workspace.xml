@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac76e5b-7c21-4a9f-aa26-d82c0d73014d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WCS/CoavBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/WCS/CoavBundle/Entity/User.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/review/edit.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/review/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/review/new.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/review/show.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/WCS/CoavBundle/Controller/ReviewController.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WCS/CoavBundle/Controller/FlightController.php" afterPath="$PROJECT_DIR$/src/WCS/CoavBundle/Controller/FlightController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WCS/CoavBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/WCS/CoavBundle/Resources/views/Default/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,122 +22,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ReviewController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Controller/ReviewController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Review.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/Review.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding>
-                <marker date="1510068345186" expanded="true" signature="1435:1442" ph=" @var int ..." />
-                <marker date="1510068345186" expanded="true" signature="1473:1519" ph=" Get id ..." />
-                <marker date="1510068345186" expanded="true" signature="1549:1587" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1596:1681" ph=" Set text ..." />
-                <marker date="1510068345186" expanded="true" signature="1718:1782" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1791:1842" ph=" Get text ..." />
-                <marker date="1510068345186" expanded="true" signature="1874:1914" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1923:2019" ph=" Set userRated ..." />
-                <marker date="1510068345186" expanded="true" signature="2066:2140" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2149:2202" ph=" Get userRated ..." />
-                <marker date="1510068345186" expanded="true" signature="2239:2284" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2293:2395" ph=" Set reviewAuthor ..." />
-                <marker date="1510068345186" expanded="true" signature="2448:2528" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2537:2593" ph=" Get reviewAuthor ..." />
-                <marker date="1510068345186" expanded="true" signature="2633:2681" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2690:2800" ph=" Set publicationDate ..." />
-                <marker date="1510068345186" expanded="true" signature="2859:2945" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2954:3019" ph=" Get publicationDate ..." />
-                <marker date="1510068345186" expanded="true" signature="3062:3113" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3122:3208" ph=" Set note ..." />
-                <marker date="1510068345186" expanded="true" signature="3245:3309" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3318:3366" ph=" Get note ..." />
-                <marker date="1510068345186" expanded="true" signature="3398:3438" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3446:3471" ph=" Constructor ..." />
-                <marker date="1510068345186" expanded="true" signature="3507:3597" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3606:3720" ph=" Add reviewss ..." />
-                <marker date="1510068345186" expanded="true" signature="3793:3867" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3876:3964" ph=" Remove reviewss ..." />
-                <marker date="1510068345186" expanded="true" signature="4040:4103" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReviewType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Form/ReviewType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaneModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/PlaneModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding>
-                <marker date="1510068345186" expanded="true" signature="231:4057" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="403:488" ph=" @var string ..." />
-                <marker date="1510068345186" expanded="true" signature="1155:1162" ph=" @var bool ..." />
-                <marker date="1510068345186" expanded="true" signature="1200:1246" ph=" Get id ..." />
-                <marker date="1510068345186" expanded="true" signature="1276:1314" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1323:1414" ph=" Set model ..." />
-                <marker date="1510068345186" expanded="true" signature="1453:1519" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1528:1580" ph=" Get model ..." />
-                <marker date="1510068345186" expanded="true" signature="1613:1654" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1663:1768" ph=" Set manufacturer ..." />
-                <marker date="1510068345186" expanded="true" signature="1821:1901" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="1910:1969" ph=" Get manufacturer ..." />
-                <marker date="1510068345186" expanded="true" signature="2009:2057" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2066:2170" ph=" Set cruiseSpeed ..." />
-                <marker date="1510068345186" expanded="true" signature="2221:2299" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2308:2363" ph=" Get cruiseSpeed ..." />
-                <marker date="1510068345186" expanded="true" signature="2402:2449" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2458:2564" ph=" Set planeNbSeats ..." />
-                <marker date="1510068345186" expanded="true" signature="2617:2697" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2706:2762" ph=" Get planeNbSeats ..." />
-                <marker date="1510068345186" expanded="true" signature="2802:2850" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="2859:2963" ph=" Set isAvailable ..." />
-                <marker date="1510068345186" expanded="true" signature="3014:3092" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3101:3157" ph=" Get isAvailable ..." />
-                <marker date="1510068345186" expanded="true" signature="3196:3243" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3251:3276" ph=" Constructor ..." />
-                <marker date="1510068345186" expanded="true" signature="3312:3400" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3409:3523" ph=" Add plane ..." />
-                <marker date="1510068345186" expanded="true" signature="3592:3661" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3670:3754" ph=" Remove plane ..." />
-                <marker date="1510068345186" expanded="true" signature="3826:3884" ph="{...}" />
-                <marker date="1510068345186" expanded="true" signature="3893:3979" ph=" Get planes ..." />
-                <marker date="1510068345186" expanded="true" signature="4013:4055" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -223,55 +115,12 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
               <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WCS" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WCS" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoavBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WCS" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoavBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WCS" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoavBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DependencyInjection" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WCS" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CoavBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +135,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,16 +171,17 @@
       <workItem from="1509720686579" duration="3273000" />
       <workItem from="1509957017944" duration="1205000" />
       <workItem from="1510915434987" duration="43000" />
+      <workItem from="1511252571521" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7073000" />
+    <option name="totallyTimeSpent" value="7115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="478" y="138" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24905661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24905661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -371,38 +222,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/Review.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="1056">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding>
-            <marker date="1510068345186" expanded="true" signature="1435:1442" ph=" @var int ..." />
-            <marker date="1510068345186" expanded="true" signature="1473:1519" ph=" Get id ..." />
-            <marker date="1510068345186" expanded="true" signature="1549:1587" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1596:1681" ph=" Set text ..." />
-            <marker date="1510068345186" expanded="true" signature="1718:1782" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1791:1842" ph=" Get text ..." />
-            <marker date="1510068345186" expanded="true" signature="1874:1914" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1923:2019" ph=" Set userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2066:2140" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2149:2202" ph=" Get userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2239:2284" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2293:2395" ph=" Set reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2448:2528" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2537:2593" ph=" Get reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2633:2681" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2690:2800" ph=" Set publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="2859:2945" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2954:3019" ph=" Get publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="3062:3113" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3122:3208" ph=" Set note ..." />
-            <marker date="1510068345186" expanded="true" signature="3245:3309" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3318:3366" ph=" Get note ..." />
-            <marker date="1510068345186" expanded="true" signature="3398:3438" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3446:3471" ph=" Constructor ..." />
-            <marker date="1510068345186" expanded="true" signature="3507:3597" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3606:3720" ph=" Add reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="3793:3867" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3876:3964" ph=" Remove reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="4040:4103" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="214:4172" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="250:355" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1086:1197" ph=" @var \DateTime ..." />
+            <marker date="1511197426361" expanded="true" signature="1238:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1325:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1363:1409" ph=" Get id ..." />
+            <marker date="1511197426361" expanded="true" signature="1439:1477" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1486:1571" ph=" Set text ..." />
+            <marker date="1511197426361" expanded="true" signature="1608:1672" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1681:1732" ph=" Get text ..." />
+            <marker date="1511197426361" expanded="true" signature="1764:1804" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1813:1909" ph=" Set userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="1956:2030" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2039:2092" ph=" Get userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="2129:2174" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2183:2285" ph=" Set reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2338:2418" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2427:2483" ph=" Get reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2523:2571" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2580:2690" ph=" Set publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2749:2835" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2844:2909" ph=" Get publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2952:3003" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3012:3098" ph=" Set note ..." />
+            <marker date="1511197426361" expanded="true" signature="3135:3199" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3208:3256" ph=" Get note ..." />
+            <marker date="1511197426361" expanded="true" signature="3288:3328" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3336:3361" ph=" Constructor ..." />
+            <marker date="1511197426361" expanded="true" signature="3397:3487" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3496:3610" ph=" Add reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3683:3757" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3766:3854" ph=" Remove reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3930:3993" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="4002:4090" ph=" Get reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="4126:4170" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -420,39 +277,162 @@
         <state relative-caret-position="528">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
-            <marker date="1510068345186" expanded="true" signature="231:4057" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="403:488" ph=" @var string ..." />
-            <marker date="1510068345186" expanded="true" signature="1155:1162" ph=" @var bool ..." />
-            <marker date="1510068345186" expanded="true" signature="1200:1246" ph=" Get id ..." />
-            <marker date="1510068345186" expanded="true" signature="1276:1314" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1323:1414" ph=" Set model ..." />
-            <marker date="1510068345186" expanded="true" signature="1453:1519" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1528:1580" ph=" Get model ..." />
-            <marker date="1510068345186" expanded="true" signature="1613:1654" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1663:1768" ph=" Set manufacturer ..." />
-            <marker date="1510068345186" expanded="true" signature="1821:1901" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1910:1969" ph=" Get manufacturer ..." />
-            <marker date="1510068345186" expanded="true" signature="2009:2057" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2066:2170" ph=" Set cruiseSpeed ..." />
-            <marker date="1510068345186" expanded="true" signature="2221:2299" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2308:2363" ph=" Get cruiseSpeed ..." />
-            <marker date="1510068345186" expanded="true" signature="2402:2449" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2458:2564" ph=" Set planeNbSeats ..." />
-            <marker date="1510068345186" expanded="true" signature="2617:2697" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2706:2762" ph=" Get planeNbSeats ..." />
-            <marker date="1510068345186" expanded="true" signature="2802:2850" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2859:2963" ph=" Set isAvailable ..." />
-            <marker date="1510068345186" expanded="true" signature="3014:3092" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3101:3157" ph=" Get isAvailable ..." />
-            <marker date="1510068345186" expanded="true" signature="3196:3243" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3251:3276" ph=" Constructor ..." />
-            <marker date="1510068345186" expanded="true" signature="3312:3400" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3409:3523" ph=" Add plane ..." />
-            <marker date="1510068345186" expanded="true" signature="3592:3661" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3670:3754" ph=" Remove plane ..." />
-            <marker date="1510068345186" expanded="true" signature="3826:3884" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3893:3979" ph=" Get planes ..." />
-            <marker date="1510068345186" expanded="true" signature="4013:4055" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="403:488" ph=" @var string ..." />
+            <marker date="1511197426357" expanded="true" signature="1155:1162" ph=" @var bool ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <marker date="1511197426357" expanded="true" signature="2785:2831" ph=" Get id ..." />
+            <marker date="1511197426357" expanded="true" signature="2861:2899" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="2908:2999" ph=" Set userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3044:3116" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3125:3180" ph=" Get userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3216:3260" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3269:3362" ph=" Set firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3409:3483" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3492:3548" ph=" Get firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3585:3630" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3639:3730" ph=" Set lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3775:3847" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3856:3911" ph=" Get lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3947:3991" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4000:4085" ph=" Set email ..." />
+            <marker date="1511197426357" expanded="true" signature="4124:4190" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4199:4251" ph=" Get email ..." />
+            <marker date="1511197426357" expanded="true" signature="4284:4325" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4334:4431" ph=" Set phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4482:4560" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4569:4627" ph=" Get phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4666:4713" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4722:4818" ph=" Set birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="4865:4939" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4948:5007" ph=" Get birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5044:5089" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5098:5200" ph=" Set creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5253:5333" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5342:5404" ph=" Get creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5444:5492" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5501:5584" ph=" Set role ..." />
+            <marker date="1511197426357" expanded="true" signature="5621:5685" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5694:5745" ph=" Get role ..." />
+            <marker date="1511197426357" expanded="true" signature="5777:5817" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5826:5910" ph=" Set note ..." />
+            <marker date="1511197426357" expanded="true" signature="5947:6011" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6020:6068" ph=" Get note ..." />
+            <marker date="1511197426357" expanded="true" signature="6100:6140" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6149:6239" ph=" Set reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6282:6352" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6361:6412" ph=" Get reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6447:6490" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6499:6609" ph=" Set isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6672:6762" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6771:6833" ph=" Get isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6878:6931" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6940:7031" ph=" Set isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7076:7148" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7157:7212" ph=" Get isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7248:7292" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7300:7325" ph=" Constructor ..." />
+            <marker date="1511197426357" expanded="true" signature="7361:7693" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7702:7827" ph=" Add reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="7913:7993" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8002:8103" ph=" Remove reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8192:8261" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8270:8361" ph=" Get reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8400:8447" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8456:8564" ph=" Add pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8633:8702" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8711:8795" ph=" Remove pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8867:8925" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8934:9020" ph=" Get pilots ..." />
+            <marker date="1511197426357" expanded="true" signature="9054:9096" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9105:9219" ph=" Add userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9294:9371" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9380:9470" ph=" Remove userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9548:9614" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9623:9713" ph=" Get userRateds ..." />
+            <marker date="1511197426357" expanded="true" signature="9751:9797" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9806:9926" ph=" Add reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10007:10090" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="10099:10195" ph=" Remove reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10279:10351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Controller/ReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <marker date="1511197426361" expanded="true" signature="214:4172" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="250:355" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1086:1197" ph=" @var \DateTime ..." />
+            <marker date="1511197426361" expanded="true" signature="1238:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1325:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1363:1409" ph=" Get id ..." />
+            <marker date="1511197426361" expanded="true" signature="1439:1477" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1486:1571" ph=" Set text ..." />
+            <marker date="1511197426361" expanded="true" signature="1608:1672" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1681:1732" ph=" Get text ..." />
+            <marker date="1511197426361" expanded="true" signature="1764:1804" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1813:1909" ph=" Set userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="1956:2030" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2039:2092" ph=" Get userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="2129:2174" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2183:2285" ph=" Set reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2338:2418" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2427:2483" ph=" Get reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2523:2571" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2580:2690" ph=" Set publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2749:2835" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2844:2909" ph=" Get publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2952:3003" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3012:3098" ph=" Set note ..." />
+            <marker date="1511197426361" expanded="true" signature="3135:3199" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3208:3256" ph=" Get note ..." />
+            <marker date="1511197426361" expanded="true" signature="3288:3328" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3336:3361" ph=" Constructor ..." />
+            <marker date="1511197426361" expanded="true" signature="3397:3487" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3496:3610" ph=" Add reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3683:3757" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3766:3854" ph=" Remove reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3930:3993" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="4002:4090" ph=" Get reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="4126:4170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Form/ReviewType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/PlaneModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <marker date="1511197426357" expanded="true" signature="403:488" ph=" @var string ..." />
+            <marker date="1511197426357" expanded="true" signature="1155:1162" ph=" @var bool ..." />
           </folding>
         </state>
       </provider>
@@ -461,7 +441,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1738">
           <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1511197426357" expanded="true" signature="2785:2831" ph=" Get id ..." />
+            <marker date="1511197426357" expanded="true" signature="2861:2899" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="2908:2999" ph=" Set userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3044:3116" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3125:3180" ph=" Get userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3216:3260" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3269:3362" ph=" Set firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3409:3483" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3492:3548" ph=" Get firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3585:3630" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3639:3730" ph=" Set lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3775:3847" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3856:3911" ph=" Get lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3947:3991" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4000:4085" ph=" Set email ..." />
+            <marker date="1511197426357" expanded="true" signature="4124:4190" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4199:4251" ph=" Get email ..." />
+            <marker date="1511197426357" expanded="true" signature="4284:4325" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4334:4431" ph=" Set phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4482:4560" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4569:4627" ph=" Get phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4666:4713" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4722:4818" ph=" Set birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="4865:4939" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4948:5007" ph=" Get birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5044:5089" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5098:5200" ph=" Set creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5253:5333" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5342:5404" ph=" Get creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5444:5492" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5501:5584" ph=" Set role ..." />
+            <marker date="1511197426357" expanded="true" signature="5621:5685" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5694:5745" ph=" Get role ..." />
+            <marker date="1511197426357" expanded="true" signature="5777:5817" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5826:5910" ph=" Set note ..." />
+            <marker date="1511197426357" expanded="true" signature="5947:6011" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6020:6068" ph=" Get note ..." />
+            <marker date="1511197426357" expanded="true" signature="6100:6140" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6149:6239" ph=" Set reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6282:6352" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6361:6412" ph=" Get reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6447:6490" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6499:6609" ph=" Set isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6672:6762" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6771:6833" ph=" Get isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6878:6931" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6940:7031" ph=" Set isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7076:7148" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7157:7212" ph=" Get isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7248:7292" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7300:7325" ph=" Constructor ..." />
+            <marker date="1511197426357" expanded="true" signature="7361:7693" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7702:7827" ph=" Add reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="7913:7993" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8002:8103" ph=" Remove reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8192:8261" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8270:8361" ph=" Get reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8400:8447" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8456:8564" ph=" Add pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8633:8702" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8711:8795" ph=" Remove pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8867:8925" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8934:9020" ph=" Get pilots ..." />
+            <marker date="1511197426357" expanded="true" signature="9054:9096" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9105:9219" ph=" Add userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9294:9371" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9380:9470" ph=" Remove userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9548:9614" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9623:9713" ph=" Get userRateds ..." />
+            <marker date="1511197426357" expanded="true" signature="9751:9797" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9806:9926" ph=" Add reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10007:10090" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="10099:10195" ph=" Remove reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10279:10351" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,35 +533,41 @@
         <state relative-caret-position="902">
           <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
-            <marker date="1510068345186" expanded="true" signature="1435:1442" ph=" @var int ..." />
-            <marker date="1510068345186" expanded="true" signature="1473:1519" ph=" Get id ..." />
-            <marker date="1510068345186" expanded="true" signature="1549:1587" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1596:1681" ph=" Set text ..." />
-            <marker date="1510068345186" expanded="true" signature="1718:1782" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1791:1842" ph=" Get text ..." />
-            <marker date="1510068345186" expanded="true" signature="1874:1914" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1923:2019" ph=" Set userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2066:2140" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2149:2202" ph=" Get userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2239:2284" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2293:2395" ph=" Set reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2448:2528" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2537:2593" ph=" Get reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2633:2681" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2690:2800" ph=" Set publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="2859:2945" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2954:3019" ph=" Get publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="3062:3113" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3122:3208" ph=" Set note ..." />
-            <marker date="1510068345186" expanded="true" signature="3245:3309" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3318:3366" ph=" Get note ..." />
-            <marker date="1510068345186" expanded="true" signature="3398:3438" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3446:3471" ph=" Constructor ..." />
-            <marker date="1510068345186" expanded="true" signature="3507:3597" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3606:3720" ph=" Add reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="3793:3867" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3876:3964" ph=" Remove reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="4040:4103" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="214:4172" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="250:355" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1086:1197" ph=" @var \DateTime ..." />
+            <marker date="1511197426361" expanded="true" signature="1238:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1325:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1363:1409" ph=" Get id ..." />
+            <marker date="1511197426361" expanded="true" signature="1439:1477" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1486:1571" ph=" Set text ..." />
+            <marker date="1511197426361" expanded="true" signature="1608:1672" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1681:1732" ph=" Get text ..." />
+            <marker date="1511197426361" expanded="true" signature="1764:1804" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1813:1909" ph=" Set userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="1956:2030" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2039:2092" ph=" Get userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="2129:2174" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2183:2285" ph=" Set reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2338:2418" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2427:2483" ph=" Get reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2523:2571" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2580:2690" ph=" Set publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2749:2835" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2844:2909" ph=" Get publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2952:3003" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3012:3098" ph=" Set note ..." />
+            <marker date="1511197426361" expanded="true" signature="3135:3199" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3208:3256" ph=" Get note ..." />
+            <marker date="1511197426361" expanded="true" signature="3288:3328" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3336:3361" ph=" Constructor ..." />
+            <marker date="1511197426361" expanded="true" signature="3397:3487" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3496:3610" ph=" Add reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3683:3757" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3766:3854" ph=" Remove reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3930:3993" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="4002:4090" ph=" Get reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="4126:4170" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -515,7 +576,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="6" lean-forward="false" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1511197426357" expanded="true" signature="2785:2831" ph=" Get id ..." />
+            <marker date="1511197426357" expanded="true" signature="2861:2899" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="2908:2999" ph=" Set userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3044:3116" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3125:3180" ph=" Get userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3216:3260" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3269:3362" ph=" Set firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3409:3483" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3492:3548" ph=" Get firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3585:3630" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3639:3730" ph=" Set lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3775:3847" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3856:3911" ph=" Get lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3947:3991" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4000:4085" ph=" Set email ..." />
+            <marker date="1511197426357" expanded="true" signature="4124:4190" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4199:4251" ph=" Get email ..." />
+            <marker date="1511197426357" expanded="true" signature="4284:4325" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4334:4431" ph=" Set phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4482:4560" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4569:4627" ph=" Get phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4666:4713" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4722:4818" ph=" Set birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="4865:4939" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4948:5007" ph=" Get birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5044:5089" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5098:5200" ph=" Set creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5253:5333" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5342:5404" ph=" Get creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5444:5492" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5501:5584" ph=" Set role ..." />
+            <marker date="1511197426357" expanded="true" signature="5621:5685" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5694:5745" ph=" Get role ..." />
+            <marker date="1511197426357" expanded="true" signature="5777:5817" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5826:5910" ph=" Set note ..." />
+            <marker date="1511197426357" expanded="true" signature="5947:6011" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6020:6068" ph=" Get note ..." />
+            <marker date="1511197426357" expanded="true" signature="6100:6140" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6149:6239" ph=" Set reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6282:6352" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6361:6412" ph=" Get reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6447:6490" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6499:6609" ph=" Set isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6672:6762" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6771:6833" ph=" Get isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6878:6931" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6940:7031" ph=" Set isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7076:7148" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7157:7212" ph=" Get isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7248:7292" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7300:7325" ph=" Constructor ..." />
+            <marker date="1511197426357" expanded="true" signature="7361:7693" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7702:7827" ph=" Add reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="7913:7993" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8002:8103" ph=" Remove reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8192:8261" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8270:8361" ph=" Get reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8400:8447" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8456:8564" ph=" Add pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8633:8702" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8711:8795" ph=" Remove pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8867:8925" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8934:9020" ph=" Get pilots ..." />
+            <marker date="1511197426357" expanded="true" signature="9054:9096" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9105:9219" ph=" Add userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9294:9371" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9380:9470" ph=" Remove userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9548:9614" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9623:9713" ph=" Get userRateds ..." />
+            <marker date="1511197426357" expanded="true" signature="9751:9797" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9806:9926" ph=" Add reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10007:10090" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="10099:10195" ph=" Remove reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10279:10351" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,35 +697,41 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510068345186" expanded="true" signature="1435:1442" ph=" @var int ..." />
-            <marker date="1510068345186" expanded="true" signature="1473:1519" ph=" Get id ..." />
-            <marker date="1510068345186" expanded="true" signature="1549:1587" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1596:1681" ph=" Set text ..." />
-            <marker date="1510068345186" expanded="true" signature="1718:1782" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1791:1842" ph=" Get text ..." />
-            <marker date="1510068345186" expanded="true" signature="1874:1914" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1923:2019" ph=" Set userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2066:2140" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2149:2202" ph=" Get userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2239:2284" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2293:2395" ph=" Set reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2448:2528" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2537:2593" ph=" Get reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2633:2681" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2690:2800" ph=" Set publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="2859:2945" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2954:3019" ph=" Get publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="3062:3113" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3122:3208" ph=" Set note ..." />
-            <marker date="1510068345186" expanded="true" signature="3245:3309" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3318:3366" ph=" Get note ..." />
-            <marker date="1510068345186" expanded="true" signature="3398:3438" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3446:3471" ph=" Constructor ..." />
-            <marker date="1510068345186" expanded="true" signature="3507:3597" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3606:3720" ph=" Add reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="3793:3867" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3876:3964" ph=" Remove reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="4040:4103" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="214:4172" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="250:355" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1086:1197" ph=" @var \DateTime ..." />
+            <marker date="1511197426361" expanded="true" signature="1238:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1325:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1363:1409" ph=" Get id ..." />
+            <marker date="1511197426361" expanded="true" signature="1439:1477" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1486:1571" ph=" Set text ..." />
+            <marker date="1511197426361" expanded="true" signature="1608:1672" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1681:1732" ph=" Get text ..." />
+            <marker date="1511197426361" expanded="true" signature="1764:1804" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1813:1909" ph=" Set userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="1956:2030" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2039:2092" ph=" Get userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="2129:2174" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2183:2285" ph=" Set reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2338:2418" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2427:2483" ph=" Get reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2523:2571" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2580:2690" ph=" Set publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2749:2835" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2844:2909" ph=" Get publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2952:3003" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3012:3098" ph=" Set note ..." />
+            <marker date="1511197426361" expanded="true" signature="3135:3199" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3208:3256" ph=" Get note ..." />
+            <marker date="1511197426361" expanded="true" signature="3288:3328" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3336:3361" ph=" Constructor ..." />
+            <marker date="1511197426361" expanded="true" signature="3397:3487" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3496:3610" ph=" Add reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3683:3757" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3766:3854" ph=" Remove reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3930:3993" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="4002:4090" ph=" Get reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="4126:4170" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -660,6 +802,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <marker date="1511197426361" expanded="true" signature="214:4172" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="250:355" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1086:1197" ph=" @var \DateTime ..." />
+            <marker date="1511197426361" expanded="true" signature="1238:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1325:1332" ph=" @var int ..." />
+            <marker date="1511197426361" expanded="true" signature="1363:1409" ph=" Get id ..." />
+            <marker date="1511197426361" expanded="true" signature="1439:1477" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1486:1571" ph=" Set text ..." />
+            <marker date="1511197426361" expanded="true" signature="1608:1672" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1681:1732" ph=" Get text ..." />
+            <marker date="1511197426361" expanded="true" signature="1764:1804" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="1813:1909" ph=" Set userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="1956:2030" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2039:2092" ph=" Get userRated ..." />
+            <marker date="1511197426361" expanded="true" signature="2129:2174" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2183:2285" ph=" Set reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2338:2418" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2427:2483" ph=" Get reviewAuthor ..." />
+            <marker date="1511197426361" expanded="true" signature="2523:2571" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2580:2690" ph=" Set publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2749:2835" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="2844:2909" ph=" Get publicationDate ..." />
+            <marker date="1511197426361" expanded="true" signature="2952:3003" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3012:3098" ph=" Set note ..." />
+            <marker date="1511197426361" expanded="true" signature="3135:3199" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3208:3256" ph=" Get note ..." />
+            <marker date="1511197426361" expanded="true" signature="3288:3328" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3336:3361" ph=" Constructor ..." />
+            <marker date="1511197426361" expanded="true" signature="3397:3487" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3496:3610" ph=" Add reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3683:3757" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="3766:3854" ph=" Remove reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="3930:3993" ph="{...}" />
+            <marker date="1511197426361" expanded="true" signature="4002:4090" ph=" Get reviewss ..." />
+            <marker date="1511197426361" expanded="true" signature="4126:4170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
+          <folding>
+            <marker date="1511197426357" expanded="true" signature="2785:2831" ph=" Get id ..." />
+            <marker date="1511197426357" expanded="true" signature="2861:2899" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="2908:2999" ph=" Set userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3044:3116" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3125:3180" ph=" Get userName ..." />
+            <marker date="1511197426357" expanded="true" signature="3216:3260" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3269:3362" ph=" Set firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3409:3483" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3492:3548" ph=" Get firstName ..." />
+            <marker date="1511197426357" expanded="true" signature="3585:3630" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3639:3730" ph=" Set lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3775:3847" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="3856:3911" ph=" Get lastName ..." />
+            <marker date="1511197426357" expanded="true" signature="3947:3991" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4000:4085" ph=" Set email ..." />
+            <marker date="1511197426357" expanded="true" signature="4124:4190" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4199:4251" ph=" Get email ..." />
+            <marker date="1511197426357" expanded="true" signature="4284:4325" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4334:4431" ph=" Set phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4482:4560" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4569:4627" ph=" Get phoneNumber ..." />
+            <marker date="1511197426357" expanded="true" signature="4666:4713" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4722:4818" ph=" Set birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="4865:4939" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="4948:5007" ph=" Get birthDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5044:5089" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5098:5200" ph=" Set creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5253:5333" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5342:5404" ph=" Get creationDate ..." />
+            <marker date="1511197426357" expanded="true" signature="5444:5492" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5501:5584" ph=" Set role ..." />
+            <marker date="1511197426357" expanded="true" signature="5621:5685" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5694:5745" ph=" Get role ..." />
+            <marker date="1511197426357" expanded="true" signature="5777:5817" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="5826:5910" ph=" Set note ..." />
+            <marker date="1511197426357" expanded="true" signature="5947:6011" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6020:6068" ph=" Get note ..." />
+            <marker date="1511197426357" expanded="true" signature="6100:6140" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6149:6239" ph=" Set reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6282:6352" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6361:6412" ph=" Get reviews ..." />
+            <marker date="1511197426357" expanded="true" signature="6447:6490" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6499:6609" ph=" Set isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6672:6762" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6771:6833" ph=" Get isACertifiedPilot ..." />
+            <marker date="1511197426357" expanded="true" signature="6878:6931" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="6940:7031" ph=" Set isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7076:7148" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7157:7212" ph=" Get isActive ..." />
+            <marker date="1511197426357" expanded="true" signature="7248:7292" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7300:7325" ph=" Constructor ..." />
+            <marker date="1511197426357" expanded="true" signature="7361:7693" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="7702:7827" ph=" Add reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="7913:7993" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8002:8103" ph=" Remove reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8192:8261" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8270:8361" ph=" Get reservation ..." />
+            <marker date="1511197426357" expanded="true" signature="8400:8447" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8456:8564" ph=" Add pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8633:8702" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8711:8795" ph=" Remove pilot ..." />
+            <marker date="1511197426357" expanded="true" signature="8867:8925" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="8934:9020" ph=" Get pilots ..." />
+            <marker date="1511197426357" expanded="true" signature="9054:9096" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9105:9219" ph=" Add userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9294:9371" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9380:9470" ph=" Remove userRated ..." />
+            <marker date="1511197426357" expanded="true" signature="9548:9614" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9623:9713" ph=" Get userRateds ..." />
+            <marker date="1511197426357" expanded="true" signature="9751:9797" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="9806:9926" ph=" Add reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10007:10090" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="10099:10195" ph=" Remove reviewAuthor ..." />
+            <marker date="1511197426357" expanded="true" signature="10279:10351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Form/ReviewType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -673,86 +942,9 @@
         <state relative-caret-position="528">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
-            <marker date="1510068345186" expanded="true" signature="231:4057" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="403:488" ph=" @var string ..." />
-            <marker date="1510068345186" expanded="true" signature="1155:1162" ph=" @var bool ..." />
-            <marker date="1510068345186" expanded="true" signature="1200:1246" ph=" Get id ..." />
-            <marker date="1510068345186" expanded="true" signature="1276:1314" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1323:1414" ph=" Set model ..." />
-            <marker date="1510068345186" expanded="true" signature="1453:1519" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1528:1580" ph=" Get model ..." />
-            <marker date="1510068345186" expanded="true" signature="1613:1654" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1663:1768" ph=" Set manufacturer ..." />
-            <marker date="1510068345186" expanded="true" signature="1821:1901" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1910:1969" ph=" Get manufacturer ..." />
-            <marker date="1510068345186" expanded="true" signature="2009:2057" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2066:2170" ph=" Set cruiseSpeed ..." />
-            <marker date="1510068345186" expanded="true" signature="2221:2299" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2308:2363" ph=" Get cruiseSpeed ..." />
-            <marker date="1510068345186" expanded="true" signature="2402:2449" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2458:2564" ph=" Set planeNbSeats ..." />
-            <marker date="1510068345186" expanded="true" signature="2617:2697" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2706:2762" ph=" Get planeNbSeats ..." />
-            <marker date="1510068345186" expanded="true" signature="2802:2850" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2859:2963" ph=" Set isAvailable ..." />
-            <marker date="1510068345186" expanded="true" signature="3014:3092" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3101:3157" ph=" Get isAvailable ..." />
-            <marker date="1510068345186" expanded="true" signature="3196:3243" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3251:3276" ph=" Constructor ..." />
-            <marker date="1510068345186" expanded="true" signature="3312:3400" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3409:3523" ph=" Add plane ..." />
-            <marker date="1510068345186" expanded="true" signature="3592:3661" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3670:3754" ph=" Remove plane ..." />
-            <marker date="1510068345186" expanded="true" signature="3826:3884" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3893:3979" ph=" Get planes ..." />
-            <marker date="1510068345186" expanded="true" signature="4013:4055" ph="{...}" />
+            <marker date="1511197426357" expanded="true" signature="403:488" ph=" @var string ..." />
+            <marker date="1511197426357" expanded="true" signature="1155:1162" ph=" @var bool ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/Review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <marker date="1510068345186" expanded="true" signature="1435:1442" ph=" @var int ..." />
-            <marker date="1510068345186" expanded="true" signature="1473:1519" ph=" Get id ..." />
-            <marker date="1510068345186" expanded="true" signature="1549:1587" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1596:1681" ph=" Set text ..." />
-            <marker date="1510068345186" expanded="true" signature="1718:1782" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1791:1842" ph=" Get text ..." />
-            <marker date="1510068345186" expanded="true" signature="1874:1914" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="1923:2019" ph=" Set userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2066:2140" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2149:2202" ph=" Get userRated ..." />
-            <marker date="1510068345186" expanded="true" signature="2239:2284" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2293:2395" ph=" Set reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2448:2528" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2537:2593" ph=" Get reviewAuthor ..." />
-            <marker date="1510068345186" expanded="true" signature="2633:2681" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2690:2800" ph=" Set publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="2859:2945" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="2954:3019" ph=" Get publicationDate ..." />
-            <marker date="1510068345186" expanded="true" signature="3062:3113" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3122:3208" ph=" Set note ..." />
-            <marker date="1510068345186" expanded="true" signature="3245:3309" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3318:3366" ph=" Get note ..." />
-            <marker date="1510068345186" expanded="true" signature="3398:3438" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3446:3471" ph=" Constructor ..." />
-            <marker date="1510068345186" expanded="true" signature="3507:3597" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3606:3720" ph=" Add reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="3793:3867" ph="{...}" />
-            <marker date="1510068345186" expanded="true" signature="3876:3964" ph=" Remove reviewss ..." />
-            <marker date="1510068345186" expanded="true" signature="4040:4103" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/CoavBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>

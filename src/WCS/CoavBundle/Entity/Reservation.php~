@@ -40,7 +40,7 @@ class Reservation
     * @ORM\ManyToMany(targetEntity="WCS\CoavBundle\Entity\User", mappedBy="passengers")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $passenger;
+    private $passengers;
 
 
     /**
