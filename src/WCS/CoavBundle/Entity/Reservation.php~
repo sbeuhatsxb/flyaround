@@ -219,4 +219,14 @@ class Reservation
     {
         $this->passenger->removeElement($passenger);
     }
+
+    /**
+     * Get passengers
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPassengers()
+    {
+        return $this->passengers;
+    }
 }
