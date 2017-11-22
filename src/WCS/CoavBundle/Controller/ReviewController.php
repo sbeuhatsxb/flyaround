@@ -22,9 +22,9 @@ class ReviewController extends Controller
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
-        $review = $em->getRepository('WCSCoavBundle:Review')->findAll();
+        $reviews = $em->getRepository('WCSCoavBundle:Review')->findAll();
         return $this->render('review/index.html.twig', array(
-            'review' => $review
+            'reviews' => $reviews
        ));
     }
 
@@ -48,7 +48,7 @@ class ReviewController extends Controller
                 'review' => $review
             ));
         }
-        return $this->render('planemodel/new.html.twig', array(
+        return $this->render('review/new.html.twig', array(
             'review' => $review,
             'form' => $form->createView(),
        ));
