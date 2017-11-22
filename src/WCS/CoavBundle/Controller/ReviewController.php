@@ -45,11 +45,11 @@ class ReviewController extends Controller
             $em->flush();
 
             return $this->render('review/new.html.twig', array(
-                'review' => $review
+                'reviews' => $reviews
             ));
         }
         return $this->render('review/new.html.twig', array(
-            'review' => $review,
+            'reviews' => $reviews,
             'form' => $form->createView(),
        ));
     }
