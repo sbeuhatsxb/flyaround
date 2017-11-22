@@ -3,7 +3,6 @@
 namespace WCS\CoavBundle\Controller;
 
 use WCS\CoavBundle\Entity\Review;
-use WCS\CoavBundle\Entity\Flight;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
@@ -18,30 +17,40 @@ class ReviewController extends Controller
 {
 
     /**
-    *
-    * @Route("{review_id}/flight/{flight_id}", name="review_index", requirements={"review_id": "\d+"})
-    * @Method("GET");
-    * @ParamConverter("review",   options={"mapping": {"review_id": "id"}})
-    * @ParamConverter("flight",   options={"mapping": {"flight_id": "id"}})
-    */
-    public function indexAction(Flight $flight)
+     * @Route("/", name="review_index")
+     */
+    public function indexAction()
     {
-       return $this->render('review/index.html.twig', array(
-           'review' => $review,
-           'flight' => $flight,
+        $em = $this->getDoctrine()->getManager();
+        $reviews = $em->getRepository('WCSCoavBundle:Review')->findAll();
+        return $this->render('review/index.html.twig', array(
+            'review' => $review
        ));
     }
 
     /**
-    *
-    * @Route("/new", name="review_new")
-    * @Method("POST");
-    */
-    public function newAction(Flight $flight)
+     * @Route("/new", name="review_new")
+     * @Method({"GET", "POST"})
+     */
+    public function newAction()
     {
-       return $this->render('review/new.html.twig', array(
-               'review' => $review,
-               'flight' => $flight,
+
+        $reservation = new Review();
+        $form = $this->createForm('WCS\CoavBundle\Form\FormType', $review);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($review);
+            $em->flush();
+
+            return $this->render('review/new.html.twig', array(
+                'review' => $review
+            ));
+        }
+        return $this->render('planemodel/new.html.twig', array(
+            'review' => $review,
+            'form' => $form->createView(),
        ));
     }
 }
