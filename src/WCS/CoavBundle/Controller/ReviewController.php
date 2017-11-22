@@ -22,7 +22,7 @@ class ReviewController extends Controller
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
-        $reviews = $em->getRepository('WCSCoavBundle:Review')->findAll();
+        $review = $em->getRepository('WCSCoavBundle:Review')->findAll();
         return $this->render('review/index.html.twig', array(
             'review' => $review
        ));
