@@ -15,7 +15,7 @@ class Review
 
     public function __toString()
     {
-        return $this->text . "-" . $this->userRated . $this->reviewAuthor . $this->publicationDate->format("d/m/Y") . $this->note;
+        return $this->text . "-" . $this->userRated . $this->reviewAuthor . $this->publicationDate->format('YYYY-MM-DD HH:MM:SS') . $this->note;
     }
 
 
@@ -200,40 +200,40 @@ class Review
      */
     public function __construct()
     {
-        $this->reviewss = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->reviews = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
-     * Add reviewss
+     * Add reviews
      *
-     * @param \WCS\CoavBundle\Entity\User $reviewss
+     * @param \WCS\CoavBundle\Entity\User $reviews
      *
      * @return Review
      */
-    public function addReviewss(\WCS\CoavBundle\Entity\User $reviewss)
+    public function addReviews(\WCS\CoavBundle\Entity\User $reviews)
     {
-        $this->reviewss[] = $reviewss;
+        $this->reviews[] = $reviews;
 
         return $this;
     }
 
     /**
-     * Remove reviewss
+     * Remove reviews
      *
-     * @param \WCS\CoavBundle\Entity\User $reviewss
+     * @param \WCS\CoavBundle\Entity\User $reviews
      */
-    public function removeReviewss(\WCS\CoavBundle\Entity\User $reviewss)
+    public function removeReviews(\WCS\CoavBundle\Entity\User $reviews)
     {
-        $this->reviewss->removeElement($reviewss);
+        $this->reviews->removeElement($reviews);
     }
 
     /**
-     * Get reviewss
+     * Get reviews
      *
      * @return \Doctrine\Common\Collections\Collection
      */
-    public function getReviewss()
+    public function getReviews()
     {
-        return $this->reviewss;
+        return $this->reviews;
     }
 }

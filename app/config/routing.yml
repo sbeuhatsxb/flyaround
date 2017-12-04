@@ -1,3 +1,11 @@
+wcs_coav_review:
+    resource: "@WCSCoavBundle/Controller/ReviewController.php"
+    type:     annotation
+
+wcs_coav_review:
+    resource: "@WCSCoavBundle/Controller/ReviewController.php"
+    type:     annotation
+
 wcs_coav_reservation:
     resource: "@WCSCoavBundle/Controller/ReservationController.php"
     type:     annotation
