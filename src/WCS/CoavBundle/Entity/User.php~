@@ -3,14 +3,15 @@
 namespace WCS\CoavBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Model\User as BaseUser;
 
 /**
  * User
  *
- * @ORM\Table(name="user")
+ * @ORM\Table(name="`user`")
  * @ORM\Entity(repositoryClass="WCS\CoavBundle\Repository\UserRepository")
  */
-class User
+class User extends BaseUser
 {
 
 
@@ -21,11 +22,11 @@ class User
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
     * @ORM\ManyToMany(targetEntity="WCS\CoavBundle\Entity\Reservation", inversedBy="passengers")
-    * @ORM\JoinColumn(nullable=false)
+    * @ORM\JoinColumn(nullable=true)
     */
     private $reservation;
 
@@ -44,59 +45,47 @@ class User
     */
     private $reviewAuthors;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="userName", type="string", length=32, nullable=false)
-     */
-    private $userName;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="firstName", type="string", length=32, nullable=false)
+     * @ORM\Column(name="firstName", type="string", length=32, nullable=true)
      */
     private $firstName;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="lastName", type="string", length=32, nullable=false)
+     * @ORM\Column(name="lastName", type="string", length=32, nullable=true)
      */
     private $lastName;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="email", type="string", length=64, nullable=false)
-     */
-    private $email;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="phoneNumber", type="string", length=32, nullable=false)
+     * @ORM\Column(name="phoneNumber", type="string", length=32, nullable=true)
      */
     private $phoneNumber;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="birthDate", type="date", nullable=false)
+     * @ORM\Column(name="birthDate", type="date", nullable=true)
      */
     private $birthDate;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="creationDate", type="datetime", nullable=false)
+     * @ORM\Column(name="creationDate", type="datetime", nullable=true)
      */
     private $creationDate;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="role", type="string", length=16, nullable=false)
+     * @ORM\Column(name="role", type="string", length=16, nullable=true)
      */
     private $role;
 
@@ -112,21 +101,21 @@ class User
      * @var string
      *
      * @ORM\ManyToOne(targetEntity="WCS\CoavBundle\Entity\Review", inversedBy="reviewss")
-     * @ORM\JoinColumn(nullable=true)
+     * @ORM\JoinColumn(nullable=false)
      */
     private $reviews;
 
     /**
      * @var bool
      *
-     * @ORM\Column(name="isACertifiedPilot", type="boolean")
+     * @ORM\Column(name="isACertifiedPilot", type="boolean", nullable=true)
      */
     private $isACertifiedPilot;
 
     /**
      * @var bool
      *
-     * @ORM\Column(name="isActive", type="boolean")
+     * @ORM\Column(name="isActive", type="boolean", nullable=true)
      */
     private $isActive;
 
@@ -135,7 +124,7 @@ class User
      */
     public function __toString()
     {
-        return $this->userName." ".$this->firstName;
+        return $this->username." ".$this->firstName;
     }
 
     /**
@@ -148,29 +137,7 @@ class User
         return $this->id;
     }
 
-    /**
-     * Set userName
-     *
-     * @param string $userName
-     *
-     * @return User
-     */
-    public function setUserName($userName)
-    {
-        $this->userName = $userName;
 
-        return $this;
-    }
-
-    /**
-     * Get userName
-     *
-     * @return string
-     */
-    public function getUserName()
-    {
-        return $this->userName;
-    }
 
     /**
      * Set firstName
@@ -440,10 +407,11 @@ class User
      */
     public function __construct()
     {
+        parent::__construct();
         $this->reservation = new \Doctrine\Common\Collections\ArrayCollection();
         $this->pilots = new \Doctrine\Common\Collections\ArrayCollection();
         $this->userRateds = new \Doctrine\Common\Collections\ArrayCollection();
-        $this->reviewAuthors = new \Doctrine\Common\Collections\ArrayCollection();
+        // $this->reviewAuthors = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**

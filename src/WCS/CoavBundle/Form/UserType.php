@@ -8,14 +8,20 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class UserType extends AbstractType
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    // /**
+    //  * {@inheritdoc}
+    //  */
+    // public function buildForm(FormBuilderInterface $builder, array $options)
+    // {
+    //     $builder->add('userName')->add('firstName')->add('lastName')->add('email')->add('phoneNumber')->add('birthDate')->add('creationDate')->add('role')->add('note')->add('isACertifiedPilot')->add('isActive')->add('reservation')->add('reviews');
+    // }
+
+    public function getParent()
+
     {
-        $builder->add('userName')->add('firstName')->add('lastName')->add('email')->add('phoneNumber')->add('birthDate')->add('creationDate')->add('role')->add('note')->add('isACertifiedPilot')->add('isActive')->add('reservation')->add('reviews');
+        return 'FOS\UserBundle\Form\Type\RegistrationFormType';
     }
-    
+
     /**
      * {@inheritdoc}
      */
@@ -33,6 +39,12 @@ class UserType extends AbstractType
     {
         return 'wcs_coavbundle_user';
     }
+
+    public function getName()
+
+     {
+         return $this->getBlockPrefix();
+     }
 
 
 }
